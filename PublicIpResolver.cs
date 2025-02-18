@@ -1,7 +1,7 @@
 using System.Net;
 using DnsClient;
 
-namespace Cranking.AI;
+namespace CrankingAI;
 
 public class PublicIpResolver
 {

@@ -1,4 +1,4 @@
-﻿using Cranking.AI;
+﻿using CrankingAI;
 
 var ipResolver = new PublicIpResolver();
 

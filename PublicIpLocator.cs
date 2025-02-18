@@ -6,7 +6,7 @@ using System.Threading;
 
 // Keep an eye on: https://github.com/Azure/azure-sdk-for-net/blob/main/sdk/maps/Azure.Maps.Search/README.md
 
-namespace Cranking.AI;
+namespace CrankingAI;
 
 public class PublicIpLocator
 {
