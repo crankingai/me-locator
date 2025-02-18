@@ -1,0 +1,36 @@
+# .gitignore focused on:
+# - VS Code
+# - .NET Semantic Kernel
+# - .NET Console Apps, Azure Static Web Apps, Web Apps, and Functions
+
+# Bookkeeping noise
+# Windows
+Thumbs.db
+# Linux
+.thumbnails
+# Mac OS
+.DS_Store
+
+# Dependencies
+node_modules/
+
+# Build assets
+bin/
+obj/
+
+# Azurite temporary files and directories
+__azurite_db_*__.json
+__blobstorage__/
+__queuestorage__/
+__tablestorage__/
+
+# Important to maintain locally, but might contain sensitive values
+local.settings.json
+.env 
+setenv.sh 
+appsettings.*.json
+# appsettings.json -- safe to check in?
+
+# .vscode/ # for this project these settings are intended to be helpful at least to start
+!.vscode/extensions.json
+!.vscode/settings.json
